@@ -36,6 +36,7 @@ app.post("/:email", async (req, res) => {
 });
 
 app.get("/:email", async (req, res) => {
+  console.log("HELLO SIR IF CAN SEE THIS YOU'll BE PRETTY HAPPY");
   try {
     const email = req.params.email;
     const newUser = await prisma.user.findFirst({
