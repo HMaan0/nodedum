@@ -115,5 +115,5 @@ app.delete("/:email", async (req, res) => {
   }
 });
 
-const PORT = 3000;
+const PORT = 4000;
 app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
